@@ -1,0 +1,6 @@
+<p
+  [ngStyle]="{ 'background-color': getColor() }"
+  [ngClass]="{ online: serverStatus === 'online' }"
+>
+  Server with id {{ serverId }} is {{ serverStatusFun() }}
+</p>
